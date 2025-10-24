@@ -1,0 +1,33 @@
+[project]
+name = "ai-brain-memory"
+version = "0.3.0"
+description = "AI Brain/Mind with persistent memory using MLX, ChromaDB, LangChain, LlamaIndex, spaCy, and Sentiment Analysis"
+requires-python = ">=3.10"
+dependencies = [
+    "mlx>=0.18.0",
+    "mlx-lm>=0.18.0",
+    "chromadb>=0.5.0",
+    "openai>=1.50.0",  # For OpenRouter API compatibility
+    "python-dotenv>=1.0.0",
+    "rich>=13.7.0",  # Beautiful CLI interface
+    "prompt-toolkit>=3.0.43",  # Advanced CLI input
+    "numpy>=1.24.0",
+    "sentence-transformers>=2.2.0",  # For embeddings
+    "langchain>=0.3.0",  # Pipeline and prompt management
+    "langchain-openai>=0.2.0",  # OpenAI/OpenRouter integration
+    "langchain-community>=0.3.0",  # Community integrations
+    "langchain-chroma>=0.1.0",  # ChromaDB integration
+    "llama-index>=0.12.0",  # Advanced RAG capabilities
+    "llama-index-vector-stores-chroma>=0.4.0",  # ChromaDB for LlamaIndex
+    "llama-index-embeddings-huggingface>=0.4.0",  # HuggingFace embeddings
+    "spacy>=3.7.0",  # NLP parsing, NER, and linguistic analysis
+    "transformers>=4.30.0",  # For RoBERTa sentiment analysis
+    "torch>=2.0.0",  # PyTorch backend for transformers
+]
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["ai_brain"]
