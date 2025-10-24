@@ -2,6 +2,9 @@
 
 A state-of-the-art AI assistant with persistent memory, **cross-platform compatible** (macOS & Windows). Features **LangChain**, **LlamaIndex**, **spaCy NLP**, **RoBERTa sentiment analysis**, **emotional context tracking**, ChromaDB, and OpenRouter.
 
+<img width="838" height="860" alt="image" src="https://github.com/user-attachments/assets/c3c8e636-6eed-40d4-adf0-4a4d95cb574c" />
+
+
 ## ⚡ Quick Start (30 seconds)
 
 ```bash
