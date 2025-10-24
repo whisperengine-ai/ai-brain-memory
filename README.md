@@ -11,6 +11,8 @@ A state-of-the-art AI assistant with persistent memory, **cross-platform compati
 
 
 
+<img width="898" height="533" alt="image" src="https://github.com/user-attachments/assets/ed65f2db-3d85-4686-8979-365a6011a574" />
+
 
 ## ⚡ Quick Start (30 seconds)
 
