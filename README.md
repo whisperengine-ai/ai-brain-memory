@@ -5,6 +5,13 @@ A state-of-the-art AI assistant with persistent memory, **cross-platform compati
 <img width="838" height="860" alt="image" src="https://github.com/user-attachments/assets/c3c8e636-6eed-40d4-adf0-4a4d95cb574c" />
 
 
+
+
+<img width="890" height="738" alt="image" src="https://github.com/user-attachments/assets/b6a731a0-48fb-4ae0-b536-7f597a8817d4" />
+
+
+
+
 ## ⚡ Quick Start (30 seconds)
 
 ```bash
