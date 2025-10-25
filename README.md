@@ -337,6 +337,46 @@ MAX_MEMORY_ITEMS=1000
 MEMORY_RELEVANCE_THRESHOLD=0.7
 ```
 
+### System Prompt Customization ✨ NEW
+
+You can customize the AI's personality and behavior by editing the system prompt in three ways:
+
+#### Option 1: Use a Template File (Recommended)
+
+Edit one of the provided templates in the `templates/` directory or use an existing one:
+
+```bash
+# Use the default template
+SYSTEM_PROMPT_FILE=templates/system_prompt.txt
+
+# Or choose a pre-configured personality
+SYSTEM_PROMPT_FILE=templates/system_prompt_professional.txt  # Business tone
+SYSTEM_PROMPT_FILE=templates/system_prompt_creative.txt      # Creative assistant
+SYSTEM_PROMPT_FILE=templates/system_prompt_technical.txt     # Technical support
+```
+
+**Available Templates:**
+- `system_prompt.txt` - Default balanced assistant
+- `system_prompt_professional.txt` - Business/professional tone
+- `system_prompt_creative.txt` - Creative writing assistant
+- `system_prompt_technical.txt` - Technical/coding assistant
+
+Edit the `.txt` files directly to customize the AI's personality!
+
+#### Option 2: Set as Environment Variable
+
+```bash
+SYSTEM_PROMPT="You are a helpful AI assistant that specializes in..."
+```
+
+#### Option 3: Edit the Default in Code
+
+Modify `ai_brain/config.py` and change the `DEFAULT_SYSTEM_PROMPT` variable.
+
+**Priority:** File template → Environment variable → Default in code
+
+See `templates/README.md` for more details on creating custom templates.
+
 ### Test Your Configuration
 
 ```bash

@@ -20,6 +20,9 @@ Complete implementation plan with phases, priorities, and detailed code examples
 ### [CONFIGURATION.md](./CONFIGURATION.md)
 Complete configuration guide covering environment variables, model selection, and system settings.
 
+### [PROMPT_TEMPLATES.md](./PROMPT_TEMPLATES.md) ✨ NEW
+Complete guide to customizing the AI's personality and behavior using editable prompt templates. Includes pre-configured professional, creative, and technical templates.
+
 ### [OLLAMA_GUIDE.md](./OLLAMA_GUIDE.md)
 Guide for setting up and using Ollama for local LLM inference (no API keys required).
 
@@ -77,8 +80,9 @@ Technical details on logging improvements for better debugging and transparency.
 
 ### For New Users
 1. Start with [CONFIGURATION.md](./CONFIGURATION.md) to set up your environment
-2. Read [NLP_FEATURES.md](./NLP_FEATURES.md) to understand capabilities
-3. Check [OLLAMA_GUIDE.md](./OLLAMA_GUIDE.md) if you want local inference
+2. Read [PROMPT_TEMPLATES.md](./PROMPT_TEMPLATES.md) to customize the AI personality ✨ NEW
+3. Check [NLP_FEATURES.md](./NLP_FEATURES.md) to understand capabilities
+4. See [OLLAMA_GUIDE.md](./OLLAMA_GUIDE.md) if you want local inference
 
 ### For Developers
 1. Review [ARCHITECTURE_REVIEW.md](./ARCHITECTURE_REVIEW.md) for system overview
